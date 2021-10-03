@@ -1,0 +1,343 @@
+/*----------------banner--------*/
+.row_img{
+    padding: 3%;
+    background: red;
+    
+}
+
+
+
+
+header {
+    background-color: white;
+    height: 64px;;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+  }
+  
+ 
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    padding-right: 3%;
+    align-self: center;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .desktop {
+    display: inline-block;
+    text-decoration: none;
+
+  }
+
+
+
+
+
+
+
+
+/* for 1st image */
+
+.side-text {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+    vertical-align: middle;
+
+  }
+  
+  .landing-box img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    margin: 2rem 2.5rem 2rem 1.5rem;
+    flex-shrink: 0;
+  }
+  
+  .landing-box h3 {
+      margin: 1.5rem 0;
+      
+  }
+  
+  .landing-box .side-text {
+      width: 30%;
+      box-sizing: border-box;
+      
+  }
+  
+ section{
+    background-color: #ADBED3;
+ }
+
+
+
+
+/* start here button */
+
+.start {
+    width: 75%;
+    background-color: #545555;
+    color: #01161E;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    text-align: center;
+    transition:color 400ms, background-color 400ms;
+    font-weight: bold;
+  }
+  
+  .start:hover {
+    background-color: #FF7954;
+    color: #01161E;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  /* double box container */
+
+.multi-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+  
+  .main-pic-box {
+    width: 60%;
+    padding: 2rem 1.5rem;
+  }
+  
+  .main-pic-box img, video {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .main-pic-box h2 {
+    padding: 0 0 1.5rem 0;
+  }
+  
+  
+  /* Small side boxes/Containers right side*/
+  
+  .stacked-content-box {
+    display: flex;
+    flex-flow: column;
+    vertical-align: top;
+    margin-top: 1rem;
+    width: 35%;
+  }
+  
+  .content-box img {
+    width: 35%;
+    margin: 3.5%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .content-box .side-text {
+    width: 56%;
+  }
+  
+  .content-box a {
+    color: #3543ff;
+    padding: 0;
+  }
+  
+
+
+
+
+
+
+
+
+  .stacked-content-box {
+    display: flex;
+    flex-flow: column;
+    vertical-align: top;
+    margin-top: 1rem;
+    width: 35%;
+  }
+  
+  .content-box img {
+    width: 35%;
+    margin: 3.5%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .content-box .side-text {
+    width: 56%;
+  }
+  
+  .content-box a {
+    color: #FF7954;
+    padding: 0;
+  }
+  
+  .thesis .main-pic-box {
+    padding: 1rem 1rem 1.5rem 1.5rem;
+  }
+  
+
+  .thesis .multi-container {
+    background-color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*     start learning container     */
+
+  .courses {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .course-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+   
+  }
+  
+  .course-box {
+    width: 30%;
+    height: auto;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: white;
+  }
+  
+  .courses h2, .thesis h2 {
+    text-align: center;
+  
+  }
+  
+  .course-box img {
+    width:100%;
+    
+  }
+  
+  .course-text {
+    padding: 1rem 0 0 1rem;
+    margin: 1.5rem auto;
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: white;
+    border-top: 1px solid #01161E;
+    display: flex;
+    justify-content: space-between;
+    position:relative;    /* handle fixed menu bar */
+    top: 4rem;
+    width: 100%
+  }
+  
+  footer h5 {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  footer nav {
+    align-self: auto;
+    padding-top: 1rem;
+  }
+  
+  footer span {
+    padding-left: 1rem;
+  }
